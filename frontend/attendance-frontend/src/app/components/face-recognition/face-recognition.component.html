@@ -1,0 +1,20 @@
+<div class="recognition-container">
+  <h2>Face Recognition</h2>
+  
+  <div class="camera-container">
+    <video #videoElement autoplay playsinline></video>
+  </div>
+
+  <div class="result-container" *ngIf="recognitionResult">
+    <h3>Recognition Result:</h3>
+    <p>{{ recognitionResult }}</p>
+  </div>
+
+  <div class="button-container">
+    <button mat-raised-button color="primary" 
+            (click)="captureAndRecognize()" 
+            [disabled]="isProcessing">
+      {{ isProcessing ? 'Processing...' : 'Mark Attendance' }}
+    </button>
+  </div>
+</div>

@@ -1,0 +1,23 @@
+<div class="register-container">
+  <h2>Register New Student</h2>
+  
+  <div class="camera-container">
+    <video #videoElement autoplay playsinline [class.camera-ready]="isCameraReady"></video>
+    <mat-spinner *ngIf="!isCameraReady" diameter="50"></mat-spinner>
+  </div>
+
+  <mat-form-field appearance="fill">
+    <mat-label>Student Name</mat-label>
+    <input matInput [(ngModel)]="studentName" placeholder="Enter student name" [disabled]="isLoading">
+    <mat-error *ngIf="studentName.trim() === ''">Student name is required</mat-error>
+  </mat-form-field>
+
+  <div class="button-container">
+    <button mat-raised-button color="primary" 
+            (click)="captureAndRegister()" 
+            [disabled]="isLoading || !isCameraReady || studentName.trim() === ''">
+      <mat-spinner *ngIf="isLoading" diameter="20" class="button-spinner"></mat-spinner>
+      <span>{{ isLoading ? 'Registering...' : 'Register Student' }}</span>
+    </button>
+  </div>
+</div>

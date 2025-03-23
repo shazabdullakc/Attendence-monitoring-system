@@ -1,0 +1,63 @@
+.recognition-container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+  h2 {
+    color: #333;
+    margin-bottom: 1rem;
+  }
+}
+
+.camera-container {
+  width: 100%;
+  max-width: 480px;
+  margin: 1rem 0;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+  video {
+    width: 100%;
+    height: auto;
+    background-color: #f0f0f0;
+  }
+}
+
+.result-container {
+  text-align: center;
+  padding: 1rem;
+  background-color: #f8f8f8;
+  border-radius: 4px;
+  width: 100%;
+  max-width: 400px;
+
+  h3 {
+    color: #333;
+    margin-bottom: 0.5rem;
+  }
+
+  p {
+    color: #666;
+    margin: 0;
+  }
+}
+
+.button-container {
+  margin-top: 1rem;
+  
+  button {
+    min-width: 150px;
+
+    &:disabled {
+      background-color: #cccccc;
+    }
+  }
+}

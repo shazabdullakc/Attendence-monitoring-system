@@ -1,0 +1,41 @@
+<div class="dashboard-container">
+  <div class="header">
+    <h1>Attendance System Dashboard</h1>
+  </div>
+
+  <div class="actions">
+    <mat-card>
+      <mat-card-content>
+        <h2>Quick Actions</h2>
+        <div class="action-buttons">
+          <button mat-raised-button color="primary" routerLink="/register">
+            <mat-icon>person_add</mat-icon>
+            Register New Student
+          </button>
+          <button mat-raised-button color="accent" routerLink="/recognize">
+            <mat-icon>face</mat-icon>
+            Mark Attendance
+          </button>
+        </div>
+      </mat-card-content>
+    </mat-card>
+  </div>
+
+  <div class="students-list">
+    <mat-card>
+      <mat-card-content>
+        <h2>Registered Students</h2>
+        <div class="students-grid">
+          <div class="student-card" *ngFor="let student of students">
+            <mat-icon>account_circle</mat-icon>
+            <h3>{{ student.name }}</h3>
+            <p>ID: {{ student.id }}</p>
+          </div>
+          <div class="no-students" *ngIf="students.length === 0">
+            No students registered yet.
+          </div>
+        </div>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>

@@ -1,0 +1,75 @@
+.register-container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  text-align: center;
+
+  h2 {
+    margin-bottom: 2rem;
+    color: #333;
+  }
+}
+
+.camera-container {
+  position: relative;
+  width: 100%;
+  max-width: 480px;
+  margin: 0 auto 2rem;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #f5f5f5;
+  min-height: 360px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  video {
+    width: 100%;
+    height: auto;
+    display: block;
+    
+    &.camera-ready {
+      opacity: 1;
+    }
+    
+    &:not(.camera-ready) {
+      opacity: 0.5;
+    }
+  }
+
+  mat-spinner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+mat-form-field {
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 1.5rem;
+}
+
+.button-container {
+  button {
+    min-width: 150px;
+    position: relative;
+    padding: 8px 24px;
+
+    .button-spinner {
+      position: absolute;
+      left: 10px;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+
+    span {
+      margin-left: 24px;
+    }
+
+    &:disabled {
+      opacity: 0.7;
+    }
+  }
+}
