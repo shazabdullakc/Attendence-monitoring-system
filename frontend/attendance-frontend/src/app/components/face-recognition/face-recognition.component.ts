@@ -1,13 +1,13 @@
 import { Component, OnInit, ViewChild, ElementRef, OnDestroy } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MatButtonModule } from '@angular/material/button';
-import { MatSnackBar } from '@angular/material/snack-bar';
+import { MatSnackBar, MatSnackBarModule } from '@angular/material/snack-bar';
 import { AttendanceService } from '../../services/attendance.service';
 
 @Component({
   selector: 'app-face-recognition',
   standalone: true,
-  imports: [CommonModule, MatButtonModule],
+  imports: [CommonModule, MatButtonModule, MatSnackBarModule],
   templateUrl: './face-recognition.component.html',
   styleUrls: ['./face-recognition.component.scss']
 })

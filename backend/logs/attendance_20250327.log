@@ -1,0 +1,42 @@
+2025-03-27 17:42:34,953 - INFO - Database initialized successfully
+2025-03-27 17:42:34,958 - INFO - Starting attendance system server
+2025-03-27 17:42:35,096 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-27 17:42:35,099 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-27 17:42:35,109 - INFO -  * Restarting with stat
+2025-03-27 17:43:26,650 - INFO - Database initialized successfully
+2025-03-27 17:43:26,659 - INFO - Starting attendance system server
+2025-03-27 17:43:26,714 - WARNING -  * Debugger is active!
+2025-03-27 17:43:26,734 - INFO -  * Debugger PIN: 928-228-874
+2025-03-27 17:44:06,916 - INFO - Fetching all students
+2025-03-27 17:44:06,947 - INFO - Successfully retrieved 2 students
+2025-03-27 17:44:06,977 - INFO - 127.0.0.1 - - [27/Mar/2025 17:44:06] "GET /api/students HTTP/1.1" 200 -
+2025-03-27 17:44:14,241 - INFO - Fetching all students
+2025-03-27 17:44:14,276 - INFO - Successfully retrieved 2 students
+2025-03-27 17:44:14,496 - INFO - 127.0.0.1 - - [27/Mar/2025 17:44:14] "GET /api/students HTTP/1.1" 200 -
+2025-03-27 17:44:31,938 - INFO - 127.0.0.1 - - [27/Mar/2025 17:44:31] "OPTIONS /api/recognize HTTP/1.1" 200 -
+2025-03-27 17:44:32,197 - INFO - Received face recognition request
+2025-03-27 17:44:41,444 - ERROR - Error getting face embedding: Face could not be detected in numpy array.Please confirm that the picture is a face photo or consider to set enforce_detection param to False.
+2025-03-27 17:44:41,447 - WARNING - Face not detected in recognition attempt
+2025-03-27 17:44:41,449 - INFO - 127.0.0.1 - - [27/Mar/2025 17:44:41] "[31m[1mPOST /api/recognize HTTP/1.1[0m" 400 -
+2025-03-27 17:45:04,346 - INFO - 127.0.0.1 - - [27/Mar/2025 17:45:04] "OPTIONS /api/recognize HTTP/1.1" 200 -
+2025-03-27 17:45:04,609 - INFO - Received face recognition request
+2025-03-27 17:45:05,818 - WARNING - Face not recognized in database
+2025-03-27 17:45:05,820 - INFO - 127.0.0.1 - - [27/Mar/2025 17:45:05] "[31m[1mPOST /api/recognize HTTP/1.1[0m" 400 -
+2025-03-27 17:45:55,926 - INFO - 127.0.0.1 - - [27/Mar/2025 17:45:55] "OPTIONS /api/recognize HTTP/1.1" 200 -
+2025-03-27 17:45:56,186 - INFO - Received face recognition request
+2025-03-27 17:45:57,124 - WARNING - Face not recognized in database
+2025-03-27 17:45:57,125 - INFO - 127.0.0.1 - - [27/Mar/2025 17:45:57] "[31m[1mPOST /api/recognize HTTP/1.1[0m" 400 -
+2025-03-27 17:46:13,186 - INFO - Received request to add new student
+2025-03-27 17:46:14,504 - INFO - Successfully registered student: shaz (ID: 3)
+2025-03-27 17:46:14,506 - INFO - 127.0.0.1 - - [27/Mar/2025 17:46:14] "POST /api/add_student HTTP/1.1" 200 -
+2025-03-27 17:46:19,674 - INFO - Fetching all students
+2025-03-27 17:46:19,676 - INFO - Successfully retrieved 3 students
+2025-03-27 17:46:19,678 - INFO - 127.0.0.1 - - [27/Mar/2025 17:46:19] "GET /api/students HTTP/1.1" 200 -
+2025-03-27 17:46:29,808 - INFO - 127.0.0.1 - - [27/Mar/2025 17:46:29] "OPTIONS /api/recognize HTTP/1.1" 200 -
+2025-03-27 17:46:30,070 - INFO - Received face recognition request
+2025-03-27 17:46:30,952 - INFO - Face recognized as student: shaz (ID: 3)
+2025-03-27 17:46:30,953 - INFO - 127.0.0.1 - - [27/Mar/2025 17:46:30] "POST /api/recognize HTTP/1.1" 200 -
+2025-03-27 17:46:36,957 - INFO - Fetching all students
+2025-03-27 17:46:36,959 - INFO - Successfully retrieved 3 students
+2025-03-27 17:46:36,960 - INFO - 127.0.0.1 - - [27/Mar/2025 17:46:36] "GET /api/students HTTP/1.1" 200 -

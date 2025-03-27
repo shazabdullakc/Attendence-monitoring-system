@@ -1,0 +1,79 @@
+2025-03-23 16:07:20,529 - INFO - Database initialized successfully
+2025-03-23 16:07:20,543 - INFO - Starting attendance system server
+2025-03-23 16:07:20,688 - WARNING -  * Debugger is active!
+2025-03-23 16:07:20,746 - INFO -  * Debugger PIN: 928-228-874
+2025-03-23 16:07:22,689 - INFO - Received request to add new student
+2025-03-23 16:07:22,689 - ERROR - Error adding student: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2025-03-23 16:07:22,704 - INFO - 127.0.0.1 - - [23/Mar/2025 16:07:22] "[31m[1mPOST /api/add_student HTTP/1.1[0m" 400 -
+2025-03-23 16:11:10,966 - INFO - Database initialized successfully
+2025-03-23 16:11:10,970 - INFO - Starting attendance system server
+2025-03-23 16:11:11,084 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-23 16:11:11,084 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-23 16:11:11,092 - INFO -  * Restarting with stat
+2025-03-23 16:11:47,249 - INFO - Database initialized successfully
+2025-03-23 16:11:47,249 - INFO - Starting attendance system server
+2025-03-23 16:11:47,323 - WARNING -  * Debugger is active!
+2025-03-23 16:11:47,339 - INFO -  * Debugger PIN: 928-228-874
+2025-03-23 16:11:48,357 - INFO - Received request to add new student
+2025-03-23 16:12:05,717 - INFO - Successfully registered student: abin (ID: 1)
+2025-03-23 16:12:05,721 - INFO - 127.0.0.1 - - [23/Mar/2025 16:12:05] "POST /api/add_student HTTP/1.1" 200 -
+2025-03-23 16:12:15,630 - INFO - Fetching all students
+2025-03-23 16:12:15,636 - INFO - Successfully retrieved 1 students
+2025-03-23 16:12:15,638 - INFO - 127.0.0.1 - - [23/Mar/2025 16:12:15] "GET /api/students HTTP/1.1" 200 -
+2025-03-23 16:13:02,368 - INFO - Fetching all students
+2025-03-23 16:13:02,374 - INFO - Successfully retrieved 1 students
+2025-03-23 16:13:02,382 - INFO - 127.0.0.1 - - [23/Mar/2025 16:13:02] "GET /api/students HTTP/1.1" 200 -
+2025-03-23 16:13:10,745 - INFO - 127.0.0.1 - - [23/Mar/2025 16:13:10] "OPTIONS /api/recognize HTTP/1.1" 200 -
+2025-03-23 16:13:11,003 - INFO - Received face recognition request
+2025-03-23 16:13:11,963 - INFO - Face recognized as student: abin (ID: 1)
+2025-03-23 16:13:11,963 - INFO - 127.0.0.1 - - [23/Mar/2025 16:13:11] "POST /api/recognize HTTP/1.1" 200 -
+2025-03-23 16:13:16,491 - INFO - 127.0.0.1 - - [23/Mar/2025 16:13:16] "OPTIONS /api/recognize HTTP/1.1" 200 -
+2025-03-23 16:13:16,754 - INFO - Received face recognition request
+2025-03-23 16:13:16,995 - ERROR - Error getting face embedding: Face could not be detected in numpy array.Please confirm that the picture is a face photo or consider to set enforce_detection param to False.
+2025-03-23 16:13:16,998 - WARNING - Face not detected in recognition attempt
+2025-03-23 16:13:17,001 - INFO - 127.0.0.1 - - [23/Mar/2025 16:13:17] "[31m[1mPOST /api/recognize HTTP/1.1[0m" 400 -
+2025-03-23 16:13:41,239 - INFO - 127.0.0.1 - - [23/Mar/2025 16:13:41] "OPTIONS /api/recognize HTTP/1.1" 200 -
+2025-03-23 16:13:41,495 - INFO - Received face recognition request
+2025-03-23 16:13:42,313 - INFO - Face recognized as student: abin (ID: 1)
+2025-03-23 16:13:42,313 - INFO - 127.0.0.1 - - [23/Mar/2025 16:13:42] "POST /api/recognize HTTP/1.1" 200 -
+2025-03-23 16:13:49,313 - INFO - Fetching all students
+2025-03-23 16:13:49,316 - INFO - Successfully retrieved 1 students
+2025-03-23 16:13:49,320 - INFO - 127.0.0.1 - - [23/Mar/2025 16:13:49] "GET /api/students HTTP/1.1" 200 -
+2025-03-23 16:13:53,247 - INFO - Fetching all students
+2025-03-23 16:13:53,251 - INFO - Successfully retrieved 1 students
+2025-03-23 16:13:53,251 - INFO - 127.0.0.1 - - [23/Mar/2025 16:13:53] "GET /api/students HTTP/1.1" 200 -
+2025-03-23 16:13:57,470 - INFO - 127.0.0.1 - - [23/Mar/2025 16:13:57] "OPTIONS /api/recognize HTTP/1.1" 200 -
+2025-03-23 16:13:57,738 - INFO - Received face recognition request
+2025-03-23 16:13:58,382 - INFO - Face recognized as student: abin (ID: 1)
+2025-03-23 16:13:58,382 - INFO - 127.0.0.1 - - [23/Mar/2025 16:13:58] "POST /api/recognize HTTP/1.1" 200 -
+2025-03-23 16:14:23,498 - INFO - Fetching all students
+2025-03-23 16:14:23,502 - INFO - Successfully retrieved 1 students
+2025-03-23 16:14:23,504 - INFO - 127.0.0.1 - - [23/Mar/2025 16:14:23] "GET /api/students HTTP/1.1" 200 -
+2025-03-23 16:14:35,317 - INFO - Received request to add new student
+2025-03-23 16:14:36,409 - INFO - Successfully registered student: shaz (ID: 2)
+2025-03-23 16:14:36,409 - INFO - 127.0.0.1 - - [23/Mar/2025 16:14:36] "POST /api/add_student HTTP/1.1" 200 -
+2025-03-23 16:14:40,863 - INFO - Fetching all students
+2025-03-23 16:14:40,863 - INFO - Successfully retrieved 2 students
+2025-03-23 16:14:40,867 - INFO - 127.0.0.1 - - [23/Mar/2025 16:14:40] "GET /api/students HTTP/1.1" 200 -
+2025-03-23 16:14:46,212 - INFO - 127.0.0.1 - - [23/Mar/2025 16:14:46] "OPTIONS /api/recognize HTTP/1.1" 200 -
+2025-03-23 16:14:46,528 - INFO - Received face recognition request
+2025-03-23 16:14:47,903 - INFO - Face recognized as student: shaz (ID: 2)
+2025-03-23 16:14:47,905 - INFO - 127.0.0.1 - - [23/Mar/2025 16:14:47] "POST /api/recognize HTTP/1.1" 200 -
+2025-03-23 16:14:59,369 - INFO - 127.0.0.1 - - [23/Mar/2025 16:14:59] "OPTIONS /api/recognize HTTP/1.1" 200 -
+2025-03-23 16:14:59,611 - INFO - Received face recognition request
+2025-03-23 16:15:01,117 - INFO - Face recognized as student: abin (ID: 1)
+2025-03-23 16:15:01,121 - INFO - 127.0.0.1 - - [23/Mar/2025 16:15:01] "POST /api/recognize HTTP/1.1" 200 -
+2025-03-23 16:15:10,738 - INFO - Fetching all students
+2025-03-23 16:15:10,738 - INFO - Successfully retrieved 2 students
+2025-03-23 16:15:10,742 - INFO - 127.0.0.1 - - [23/Mar/2025 16:15:10] "GET /api/students HTTP/1.1" 200 -
+2025-03-23 16:15:29,247 - INFO - 127.0.0.1 - - [23/Mar/2025 16:15:29] "OPTIONS /api/recognize HTTP/1.1" 200 -
+2025-03-23 16:15:29,513 - INFO - Received face recognition request
+2025-03-23 16:15:30,204 - WARNING - Face not recognized in database
+2025-03-23 16:15:30,204 - INFO - 127.0.0.1 - - [23/Mar/2025 16:15:30] "[31m[1mPOST /api/recognize HTTP/1.1[0m" 400 -
+2025-03-23 16:16:07,891 - INFO - Fetching all students
+2025-03-23 16:16:07,895 - INFO - Successfully retrieved 2 students
+2025-03-23 16:16:07,895 - INFO - 127.0.0.1 - - [23/Mar/2025 16:16:07] "GET /api/students HTTP/1.1" 200 -
+2025-03-23 16:16:17,621 - INFO - Fetching all students
+2025-03-23 16:16:17,625 - INFO - Successfully retrieved 2 students
+2025-03-23 16:16:17,625 - INFO - 127.0.0.1 - - [23/Mar/2025 16:16:17] "GET /api/students HTTP/1.1" 200 -

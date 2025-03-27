@@ -10,8 +10,8 @@ export class AttendanceService {
 
   constructor(private http: HttpClient) { }
 
-  registerStudent(name: string, image: string): Observable<any> {
-    return this.http.post(`${this.apiUrl}/add_student`, { name, image });
+  registerStudent(formData: FormData): Observable<any> {
+    return this.http.post(`${this.apiUrl}/add_student`, formData);
   }
 
   recognizeFace(image: string): Observable<any> {
