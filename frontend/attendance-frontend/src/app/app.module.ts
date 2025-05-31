@@ -6,10 +6,12 @@ import { RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { routes } from './app.routes';
+import { AttendanceRecordsComponent } from './components/attendance-records/attendance-records.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AttendanceRecordsComponent
   ],
   imports: [
     BrowserModule,

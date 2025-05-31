@@ -21,4 +21,8 @@ export class AttendanceService {
   getStudents(): Observable<any> {
     return this.http.get(`${this.apiUrl}/students`);
   }
+
+  getAttendanceRecords(): Observable<any> {
+    return this.http.get(`${this.apiUrl}/attendance`);
+  }
 }

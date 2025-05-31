@@ -1,0 +1,67 @@
+.attendance-records-container {
+    padding: 20px;
+  
+    .header-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+    }
+  
+    mat-card {
+      margin-bottom: 20px;
+    }
+  
+    .loading-container, .error-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 30px;
+      
+      p {
+        margin-top: 20px;
+        color: #666;
+      }
+    }
+  
+    .error-container {
+      color: #f44336;
+  
+      mat-icon {
+        font-size: 48px;
+        width: 48px;
+        height: 48px;
+      }
+    }
+  
+    .table-container {
+      overflow-x: auto;
+      
+      table {
+        width: 100%;
+        
+        th.mat-sort-header-sorted {
+          color: black;
+        }
+      }
+      
+      .never-attended {
+        color: #f44336;
+        font-style: italic;
+      }
+    }
+  
+    .no-records {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 30px;
+      
+      p {
+        margin-bottom: 20px;
+        color: #666;
+      }
+    }
+  }

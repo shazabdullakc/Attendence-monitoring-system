@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { MatButtonModule } from '@angular/material/button';
 import { MatSnackBar, MatSnackBarModule } from '@angular/material/snack-bar';
 import { AttendanceService } from '../../services/attendance.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-face-recognition',
@@ -19,7 +20,8 @@ export class FaceRecognitionComponent implements OnInit, OnDestroy {
 
   constructor(
     private attendanceService: AttendanceService,
-    private snackBar: MatSnackBar
+    private snackBar: MatSnackBar,
+    private router: Router
   ) {}
 
   ngOnInit() {
@@ -54,6 +56,8 @@ export class FaceRecognitionComponent implements OnInit, OnDestroy {
       } else {
         this.recognitionResult = response.message;
         this.snackBar.open('Attendance marked successfully', 'Close', { duration: 3000 });
+        this.router.navigate(['/attendance']);
+
       }
     } catch (error) {
       console.error('Error recognizing face:', error);
