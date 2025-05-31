@@ -1,0 +1,23 @@
+2025-04-16 19:17:40,876 - INFO - Database initialized successfully
+2025-04-16 19:17:40,880 - INFO - Starting attendance system server
+2025-04-16 19:17:41,000 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-16 19:17:41,001 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-16 19:17:41,006 - INFO -  * Restarting with stat
+2025-04-16 19:18:29,816 - INFO - Database initialized successfully
+2025-04-16 19:18:29,822 - INFO - Starting attendance system server
+2025-04-16 19:18:29,890 - WARNING -  * Debugger is active!
+2025-04-16 19:18:29,911 - INFO -  * Debugger PIN: 928-228-874
+2025-04-16 19:22:14,217 - INFO - Fetching all students
+2025-04-16 19:22:14,276 - INFO - Successfully retrieved 3 students
+2025-04-16 19:22:14,282 - INFO - 127.0.0.1 - - [16/Apr/2025 19:22:14] "GET /api/students HTTP/1.1" 200 -
+2025-04-16 19:22:32,077 - INFO - 127.0.0.1 - - [16/Apr/2025 19:22:32] "OPTIONS /api/recognize HTTP/1.1" 200 -
+2025-04-16 19:22:32,400 - INFO - Received face recognition request
+2025-04-16 19:22:52,735 - INFO - Face recognized as student: shaz (ID: 3)
+2025-04-16 19:22:52,737 - INFO - 127.0.0.1 - - [16/Apr/2025 19:22:52] "POST /api/recognize HTTP/1.1" 200 -
+2025-04-16 19:23:07,047 - INFO - Fetching all students
+2025-04-16 19:23:07,053 - INFO - Successfully retrieved 3 students
+2025-04-16 19:23:07,063 - INFO - 127.0.0.1 - - [16/Apr/2025 19:23:07] "GET /api/students HTTP/1.1" 200 -
+2025-04-16 19:23:25,114 - INFO - Fetching all students
+2025-04-16 19:23:25,118 - INFO - Successfully retrieved 3 students
+2025-04-16 19:23:25,120 - INFO - 127.0.0.1 - - [16/Apr/2025 19:23:25] "GET /api/students HTTP/1.1" 200 -

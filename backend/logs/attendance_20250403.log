@@ -1,0 +1,24 @@
+2025-04-03 15:04:30,518 - INFO - Database initialized successfully
+2025-04-03 15:04:30,518 - INFO - Starting attendance system server
+2025-04-03 15:04:30,610 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-03 15:04:30,611 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-03 15:04:30,615 - INFO -  * Restarting with stat
+2025-04-03 15:04:55,405 - INFO - Database initialized successfully
+2025-04-03 15:04:55,405 - INFO - Starting attendance system server
+2025-04-03 15:04:55,438 - WARNING -  * Debugger is active!
+2025-04-03 15:04:55,452 - INFO -  * Debugger PIN: 281-727-615
+2025-04-03 15:04:56,369 - INFO - Fetching all students
+2025-04-03 15:04:56,379 - INFO - Successfully retrieved 3 students
+2025-04-03 15:04:56,382 - INFO - 127.0.0.1 - - [03/Apr/2025 15:04:56] "GET /api/students HTTP/1.1" 200 -
+2025-04-03 15:05:14,572 - INFO - 127.0.0.1 - - [03/Apr/2025 15:05:14] "OPTIONS /api/recognize HTTP/1.1" 200 -
+2025-04-03 15:05:14,842 - INFO - Received face recognition request
+2025-04-03 15:05:23,552 - WARNING - Face not recognized in database
+2025-04-03 15:05:23,554 - INFO - 127.0.0.1 - - [03/Apr/2025 15:05:23] "[31m[1mPOST /api/recognize HTTP/1.1[0m" 400 -
+2025-04-03 15:05:29,250 - INFO - 127.0.0.1 - - [03/Apr/2025 15:05:29] "OPTIONS /api/recognize HTTP/1.1" 200 -
+2025-04-03 15:05:29,508 - INFO - Received face recognition request
+2025-04-03 15:05:30,280 - WARNING - Face not recognized in database
+2025-04-03 15:05:30,281 - INFO - 127.0.0.1 - - [03/Apr/2025 15:05:30] "[31m[1mPOST /api/recognize HTTP/1.1[0m" 400 -
+2025-04-03 15:05:35,922 - INFO - Fetching all students
+2025-04-03 15:05:35,922 - INFO - Successfully retrieved 3 students
+2025-04-03 15:05:35,922 - INFO - 127.0.0.1 - - [03/Apr/2025 15:05:35] "GET /api/students HTTP/1.1" 200 -

@@ -35,6 +35,12 @@ class Student(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(100), nullable=False)
     embedding = db.Column(db.Text, nullable=False)
+    attendances = db.relationship('Attendance', backref='student', lazy=True)
+
+class Attendance(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    student_id = db.Column(db.Integer, db.ForeignKey('student.id'), nullable=False)
+    timestamp = db.Column(db.DateTime, nullable=False, default=datetime.now)
     
 with app.app_context():
     db.create_all()
@@ -129,6 +135,9 @@ def recognize_face():
             stored_embedding = json.loads(student.embedding)
             distance = np.linalg.norm(np.array(stored_embedding) - np.array(live_embedding))
             if distance < 10:  # Similarity threshold
+                new_attendance = Attendance(student_id=student.id)
+                db.session.add(new_attendance)
+                db.session.commit()
                 logger.info(f"Face recognized as student: {student.name} (ID: {student.id})")
                 return jsonify({"message": f"Recognized as {student.name}", "name": student.name, "id": student.id})
 
@@ -138,6 +147,42 @@ def recognize_face():
     except Exception as e:
         logger.error(f"Error during face recognition: {str(e)}")
         return jsonify({"error": "Internal server error"}), 500
+
+@app.route('/api/attendance', methods=['GET'])
+def get_attendance():
+    logger.info("Fetching attendance records")
+    try:
+        # Using SQL subquery to get the latest attendance for each student
+        # This is more efficient than fetching all records and filtering in Python
+        latest_attendance_subquery = db.session.query(
+            Attendance.student_id,
+            db.func.max(Attendance.timestamp).label('latest_timestamp')
+        ).group_by(Attendance.student_id).subquery()
+        
+        # Join the subquery with the Student and Attendance tables
+        results = db.session.query(
+            Student.id,
+            Student.name,
+            latest_attendance_subquery.c.latest_timestamp
+        ).outerjoin(
+            latest_attendance_subquery,
+            Student.id == latest_attendance_subquery.c.student_id
+        ).all()
+        
+        attendance_list = []
+        for id, name, timestamp in results:
+            attendance_list.append({
+                "id": id,
+                "name": name,
+                "lastAttendance": timestamp.isoformat() if timestamp else None
+            })
+        
+        logger.info(f"Successfully retrieved attendance records for {len(attendance_list)} students")
+        return jsonify(attendance_list)
+    except Exception as e:
+        logger.error(f"Error fetching attendance records: {str(e)}")
+        return jsonify({"error": "Internal server error"}), 500
+
 
 if __name__ == "__main__":
     logger.info("Starting attendance system server")

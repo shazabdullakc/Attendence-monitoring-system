@@ -1,0 +1,45 @@
+2025-05-31 14:23:04,300 - INFO - Database initialized successfully
+2025-05-31 14:23:04,305 - INFO - Starting attendance system server
+2025-05-31 14:23:04,560 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-31 14:23:04,611 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-31 14:23:04,693 - INFO -  * Restarting with stat
+2025-05-31 14:23:53,543 - INFO - Database initialized successfully
+2025-05-31 14:23:53,551 - INFO - Starting attendance system server
+2025-05-31 14:23:53,643 - WARNING -  * Debugger is active!
+2025-05-31 14:23:53,681 - INFO -  * Debugger PIN: 928-228-874
+2025-05-31 14:23:56,474 - INFO - Fetching attendance records
+2025-05-31 14:23:56,633 - INFO - Successfully retrieved attendance records for 8 students
+2025-05-31 14:23:56,662 - INFO - 127.0.0.1 - - [31/May/2025 14:23:56] "GET /api/attendance HTTP/1.1" 200 -
+2025-05-31 14:24:20,305 - INFO - Fetching all students
+2025-05-31 14:24:20,313 - INFO - Successfully retrieved 8 students
+2025-05-31 14:24:20,325 - INFO - 127.0.0.1 - - [31/May/2025 14:24:20] "GET /api/students HTTP/1.1" 200 -
+2025-05-31 14:24:37,991 - INFO - 127.0.0.1 - - [31/May/2025 14:24:37] "OPTIONS /api/recognize HTTP/1.1" 200 -
+2025-05-31 14:24:38,281 - INFO - Received face recognition request
+2025-05-31 14:25:00,893 - ERROR - Error getting face embedding: Face could not be detected in numpy array.Please confirm that the picture is a face photo or consider to set enforce_detection param to False.
+2025-05-31 14:25:00,941 - WARNING - Face not detected in recognition attempt
+2025-05-31 14:25:01,035 - INFO - 127.0.0.1 - - [31/May/2025 14:25:01] "[31m[1mPOST /api/recognize HTTP/1.1[0m" 400 -
+2025-05-31 14:25:17,187 - INFO - 127.0.0.1 - - [31/May/2025 14:25:17] "OPTIONS /api/recognize HTTP/1.1" 200 -
+2025-05-31 14:25:17,410 - INFO - Received face recognition request
+2025-05-31 14:25:19,052 - WARNING - Face not recognized in database
+2025-05-31 14:25:19,054 - INFO - 127.0.0.1 - - [31/May/2025 14:25:19] "[31m[1mPOST /api/recognize HTTP/1.1[0m" 400 -
+2025-05-31 14:25:25,317 - INFO - 127.0.0.1 - - [31/May/2025 14:25:25] "OPTIONS /api/recognize HTTP/1.1" 200 -
+2025-05-31 14:25:25,572 - INFO - Received face recognition request
+2025-05-31 14:25:26,979 - WARNING - Face not recognized in database
+2025-05-31 14:25:26,983 - INFO - 127.0.0.1 - - [31/May/2025 14:25:26] "[31m[1mPOST /api/recognize HTTP/1.1[0m" 400 -
+2025-05-31 14:25:31,949 - INFO - Fetching all students
+2025-05-31 14:25:31,952 - INFO - Successfully retrieved 8 students
+2025-05-31 14:25:31,952 - INFO - 127.0.0.1 - - [31/May/2025 14:25:31] "GET /api/students HTTP/1.1" 200 -
+2025-05-31 14:26:01,135 - INFO - Received request to add new student
+2025-05-31 14:26:05,987 - INFO - Successfully registered student: maharshi (ID: 9)
+2025-05-31 14:26:06,076 - INFO - 127.0.0.1 - - [31/May/2025 14:26:06] "POST /api/add_student HTTP/1.1" 200 -
+2025-05-31 14:26:12,611 - INFO - Fetching all students
+2025-05-31 14:26:12,648 - INFO - Successfully retrieved 9 students
+2025-05-31 14:26:12,700 - INFO - 127.0.0.1 - - [31/May/2025 14:26:12] "GET /api/students HTTP/1.1" 200 -
+2025-05-31 14:26:22,352 - INFO - 127.0.0.1 - - [31/May/2025 14:26:22] "OPTIONS /api/recognize HTTP/1.1" 200 -
+2025-05-31 14:26:22,661 - INFO - Received face recognition request
+2025-05-31 14:26:26,310 - INFO - Face recognized as student: maharshi (ID: 9)
+2025-05-31 14:26:26,423 - INFO - 127.0.0.1 - - [31/May/2025 14:26:26] "POST /api/recognize HTTP/1.1" 200 -
+2025-05-31 14:26:27,139 - INFO - Fetching attendance records
+2025-05-31 14:26:27,492 - INFO - Successfully retrieved attendance records for 9 students
+2025-05-31 14:26:27,571 - INFO - 127.0.0.1 - - [31/May/2025 14:26:27] "GET /api/attendance HTTP/1.1" 200 -

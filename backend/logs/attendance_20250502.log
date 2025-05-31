@@ -1,0 +1,114 @@
+2025-05-02 18:30:26,598 - INFO - Database initialized successfully
+2025-05-02 18:30:26,607 - INFO - Starting attendance system server
+2025-05-02 18:30:26,775 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-02 18:30:26,775 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-02 18:30:26,787 - INFO -  * Restarting with stat
+2025-05-02 18:31:09,898 - INFO - Database initialized successfully
+2025-05-02 18:31:09,905 - INFO - Starting attendance system server
+2025-05-02 18:31:09,959 - WARNING -  * Debugger is active!
+2025-05-02 18:31:09,966 - INFO -  * Debugger PIN: 928-228-874
+2025-05-02 18:32:52,362 - INFO - Fetching all students
+2025-05-02 18:32:52,435 - INFO - Successfully retrieved 7 students
+2025-05-02 18:32:52,447 - INFO - 127.0.0.1 - - [02/May/2025 18:32:52] "GET /api/students HTTP/1.1" 200 -
+2025-05-02 18:35:07,709 - INFO - Received request to add new student
+2025-05-02 18:35:23,440 - ERROR - Error getting face embedding: Face could not be detected in numpy array.Please confirm that the picture is a face photo or consider to set enforce_detection param to False.
+2025-05-02 18:35:23,440 - WARNING - Face not detected for student: Gagan
+2025-05-02 18:35:23,443 - INFO - 127.0.0.1 - - [02/May/2025 18:35:23] "[31m[1mPOST /api/add_student HTTP/1.1[0m" 400 -
+2025-05-02 18:35:37,158 - INFO - Received request to add new student
+2025-05-02 18:35:37,445 - ERROR - Error getting face embedding: Face could not be detected in numpy array.Please confirm that the picture is a face photo or consider to set enforce_detection param to False.
+2025-05-02 18:35:37,445 - WARNING - Face not detected for student: Gagan
+2025-05-02 18:35:37,449 - INFO - 127.0.0.1 - - [02/May/2025 18:35:37] "[31m[1mPOST /api/add_student HTTP/1.1[0m" 400 -
+2025-05-02 18:35:42,343 - INFO - Fetching all students
+2025-05-02 18:35:42,351 - INFO - Successfully retrieved 7 students
+2025-05-02 18:35:42,351 - INFO - 127.0.0.1 - - [02/May/2025 18:35:42] "GET /api/students HTTP/1.1" 200 -
+2025-05-02 18:36:42,740 - INFO - 127.0.0.1 - - [02/May/2025 18:36:42] "OPTIONS /api/recognize HTTP/1.1" 200 -
+2025-05-02 18:36:43,004 - INFO - Received face recognition request
+2025-05-02 18:36:43,193 - ERROR - Error getting face embedding: Face could not be detected in numpy array.Please confirm that the picture is a face photo or consider to set enforce_detection param to False.
+2025-05-02 18:36:43,193 - WARNING - Face not detected in recognition attempt
+2025-05-02 18:36:43,196 - INFO - 127.0.0.1 - - [02/May/2025 18:36:43] "[31m[1mPOST /api/recognize HTTP/1.1[0m" 400 -
+2025-05-02 18:36:48,288 - INFO - Fetching all students
+2025-05-02 18:36:48,290 - INFO - Successfully retrieved 7 students
+2025-05-02 18:36:48,290 - INFO - 127.0.0.1 - - [02/May/2025 18:36:48] "GET /api/students HTTP/1.1" 200 -
+2025-05-02 18:36:50,243 - INFO - Fetching attendance records
+2025-05-02 18:36:50,274 - INFO - Successfully retrieved attendance records for 7 students
+2025-05-02 18:36:50,274 - INFO - 127.0.0.1 - - [02/May/2025 18:36:50] "GET /api/attendance HTTP/1.1" 200 -
+2025-05-02 18:36:56,084 - INFO - Fetching attendance records
+2025-05-02 18:36:56,088 - INFO - Successfully retrieved attendance records for 7 students
+2025-05-02 18:36:56,092 - INFO - 127.0.0.1 - - [02/May/2025 18:36:56] "GET /api/attendance HTTP/1.1" 200 -
+2025-05-02 18:37:11,341 - INFO - Fetching all students
+2025-05-02 18:37:11,341 - INFO - Successfully retrieved 7 students
+2025-05-02 18:37:11,345 - INFO - 127.0.0.1 - - [02/May/2025 18:37:11] "GET /api/students HTTP/1.1" 200 -
+2025-05-02 18:37:26,991 - INFO - Fetching attendance records
+2025-05-02 18:37:26,995 - INFO - Successfully retrieved attendance records for 7 students
+2025-05-02 18:37:26,997 - INFO - 127.0.0.1 - - [02/May/2025 18:37:26] "GET /api/attendance HTTP/1.1" 200 -
+2025-05-02 18:37:44,639 - INFO - Fetching attendance records
+2025-05-02 18:37:44,647 - INFO - Successfully retrieved attendance records for 7 students
+2025-05-02 18:37:44,651 - INFO - 127.0.0.1 - - [02/May/2025 18:37:44] "GET /api/attendance HTTP/1.1" 200 -
+2025-05-02 18:37:50,031 - INFO - Fetching all students
+2025-05-02 18:37:50,031 - INFO - Successfully retrieved 7 students
+2025-05-02 18:37:50,035 - INFO - 127.0.0.1 - - [02/May/2025 18:37:50] "GET /api/students HTTP/1.1" 200 -
+2025-05-02 18:37:58,600 - INFO - 127.0.0.1 - - [02/May/2025 18:37:58] "OPTIONS /api/recognize HTTP/1.1" 200 -
+2025-05-02 18:37:58,858 - INFO - Received face recognition request
+2025-05-02 18:38:00,120 - INFO - Face recognized as student: Abin (ID: 1)
+2025-05-02 18:38:00,120 - INFO - 127.0.0.1 - - [02/May/2025 18:38:00] "POST /api/recognize HTTP/1.1" 200 -
+2025-05-02 18:38:06,221 - INFO - Fetching all students
+2025-05-02 18:38:06,226 - INFO - Successfully retrieved 7 students
+2025-05-02 18:38:06,226 - INFO - 127.0.0.1 - - [02/May/2025 18:38:06] "GET /api/students HTTP/1.1" 200 -
+2025-05-02 18:38:08,066 - INFO - Fetching attendance records
+2025-05-02 18:38:08,070 - INFO - Successfully retrieved attendance records for 7 students
+2025-05-02 18:38:08,078 - INFO - 127.0.0.1 - - [02/May/2025 18:38:08] "GET /api/attendance HTTP/1.1" 200 -
+2025-05-02 18:38:24,955 - INFO - Fetching all students
+2025-05-02 18:38:24,958 - INFO - Successfully retrieved 7 students
+2025-05-02 18:38:24,962 - INFO - 127.0.0.1 - - [02/May/2025 18:38:24] "GET /api/students HTTP/1.1" 200 -
+2025-05-02 18:38:37,318 - INFO - Received request to add new student
+2025-05-02 18:38:38,239 - INFO - Successfully registered student: gagan (ID: 8)
+2025-05-02 18:38:38,239 - INFO - 127.0.0.1 - - [02/May/2025 18:38:38] "POST /api/add_student HTTP/1.1" 200 -
+2025-05-02 18:38:44,436 - INFO - Fetching all students
+2025-05-02 18:38:44,441 - INFO - Successfully retrieved 8 students
+2025-05-02 18:38:44,445 - INFO - 127.0.0.1 - - [02/May/2025 18:38:44] "GET /api/students HTTP/1.1" 200 -
+2025-05-02 18:38:49,287 - INFO - 127.0.0.1 - - [02/May/2025 18:38:49] "OPTIONS /api/recognize HTTP/1.1" 200 -
+2025-05-02 18:38:49,557 - INFO - Received face recognition request
+2025-05-02 18:38:50,371 - INFO - Face recognized as student: gagan (ID: 8)
+2025-05-02 18:38:50,371 - INFO - 127.0.0.1 - - [02/May/2025 18:38:50] "POST /api/recognize HTTP/1.1" 200 -
+2025-05-02 18:38:53,876 - INFO - Fetching all students
+2025-05-02 18:38:53,880 - INFO - Successfully retrieved 8 students
+2025-05-02 18:38:53,884 - INFO - 127.0.0.1 - - [02/May/2025 18:38:53] "GET /api/students HTTP/1.1" 200 -
+2025-05-02 18:38:56,458 - INFO - Fetching attendance records
+2025-05-02 18:38:56,462 - INFO - Successfully retrieved attendance records for 8 students
+2025-05-02 18:38:56,462 - INFO - 127.0.0.1 - - [02/May/2025 18:38:56] "GET /api/attendance HTTP/1.1" 200 -
+2025-05-02 18:39:43,367 - INFO - Fetching all students
+2025-05-02 18:39:43,367 - INFO - Successfully retrieved 8 students
+2025-05-02 18:39:43,371 - INFO - 127.0.0.1 - - [02/May/2025 18:39:43] "GET /api/students HTTP/1.1" 200 -
+2025-05-02 18:40:12,015 - INFO - Fetching all students
+2025-05-02 18:40:12,019 - INFO - Successfully retrieved 8 students
+2025-05-02 18:40:12,019 - INFO - 127.0.0.1 - - [02/May/2025 18:40:12] "GET /api/students HTTP/1.1" 200 -
+2025-05-02 19:15:41,399 - INFO - Fetching all students
+2025-05-02 19:15:41,572 - INFO - Successfully retrieved 8 students
+2025-05-02 19:15:41,593 - INFO - 127.0.0.1 - - [02/May/2025 19:15:41] "GET /api/students HTTP/1.1" 200 -
+2025-05-02 19:15:56,766 - INFO - 127.0.0.1 - - [02/May/2025 19:15:56] "OPTIONS /api/recognize HTTP/1.1" 200 -
+2025-05-02 19:15:57,012 - INFO - Received face recognition request
+2025-05-02 19:16:01,120 - INFO - Face recognized as student: shaz (ID: 3)
+2025-05-02 19:16:01,125 - INFO - 127.0.0.1 - - [02/May/2025 19:16:01] "POST /api/recognize HTTP/1.1" 200 -
+2025-05-02 19:16:01,613 - INFO - Fetching attendance records
+2025-05-02 19:16:01,646 - INFO - Successfully retrieved attendance records for 8 students
+2025-05-02 19:16:01,650 - INFO - 127.0.0.1 - - [02/May/2025 19:16:01] "GET /api/attendance HTTP/1.1" 200 -
+2025-05-02 19:16:13,501 - INFO - Fetching all students
+2025-05-02 19:16:13,505 - INFO - Successfully retrieved 8 students
+2025-05-02 19:16:13,507 - INFO - 127.0.0.1 - - [02/May/2025 19:16:13] "GET /api/students HTTP/1.1" 200 -
+2025-05-02 19:17:32,006 - INFO - Fetching all students
+2025-05-02 19:17:32,008 - INFO - Successfully retrieved 8 students
+2025-05-02 19:17:32,012 - INFO - 127.0.0.1 - - [02/May/2025 19:17:32] "GET /api/students HTTP/1.1" 200 -
+2025-05-02 19:17:42,715 - INFO - 127.0.0.1 - - [02/May/2025 19:17:42] "OPTIONS /api/recognize HTTP/1.1" 200 -
+2025-05-02 19:17:42,985 - INFO - Received face recognition request
+2025-05-02 19:17:43,725 - INFO - Face recognized as student: shaz (ID: 3)
+2025-05-02 19:17:43,728 - INFO - 127.0.0.1 - - [02/May/2025 19:17:43] "POST /api/recognize HTTP/1.1" 200 -
+2025-05-02 19:17:43,775 - INFO - Fetching attendance records
+2025-05-02 19:17:43,781 - INFO - Successfully retrieved attendance records for 8 students
+2025-05-02 19:17:43,782 - INFO - 127.0.0.1 - - [02/May/2025 19:17:43] "GET /api/attendance HTTP/1.1" 200 -
+2025-05-02 19:17:49,342 - INFO - Fetching all students
+2025-05-02 19:17:49,346 - INFO - Successfully retrieved 8 students
+2025-05-02 19:17:49,349 - INFO - 127.0.0.1 - - [02/May/2025 19:17:49] "GET /api/students HTTP/1.1" 200 -
+2025-05-02 19:17:56,245 - INFO - Fetching attendance records
+2025-05-02 19:17:56,254 - INFO - Successfully retrieved attendance records for 8 students
+2025-05-02 19:17:56,255 - INFO - 127.0.0.1 - - [02/May/2025 19:17:56] "GET /api/attendance HTTP/1.1" 200 -

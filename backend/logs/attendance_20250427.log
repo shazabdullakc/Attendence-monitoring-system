@@ -1,0 +1,92 @@
+2025-04-27 12:31:38,357 - INFO - Database initialized successfully
+2025-04-27 12:31:38,361 - INFO - Starting attendance system server
+2025-04-27 12:31:38,460 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-27 12:31:38,461 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-27 12:31:38,465 - INFO -  * Restarting with stat
+2025-04-27 12:31:56,944 - INFO - Database initialized successfully
+2025-04-27 12:31:56,947 - INFO - Starting attendance system server
+2025-04-27 12:31:56,986 - WARNING -  * Debugger is active!
+2025-04-27 12:31:56,998 - INFO -  * Debugger PIN: 928-228-874
+2025-04-27 12:31:58,062 - INFO - 127.0.0.1 - - [27/Apr/2025 12:31:58] "[33mGET / HTTP/1.1[0m" 404 -
+2025-04-27 12:32:29,593 - INFO - 127.0.0.1 - - [27/Apr/2025 12:32:29] "[33mGET / HTTP/1.1[0m" 404 -
+2025-04-27 12:33:22,787 - INFO - 127.0.0.1 - - [27/Apr/2025 12:33:22] "[33mGET /api/attendance HTTP/1.1[0m" 404 -
+2025-04-27 12:33:28,948 - INFO - 127.0.0.1 - - [27/Apr/2025 12:33:28] "[33mGET /api/attendance HTTP/1.1[0m" 404 -
+2025-04-27 12:34:04,378 - INFO - Fetching all students
+2025-04-27 12:34:04,387 - INFO - Successfully retrieved 5 students
+2025-04-27 12:34:04,391 - INFO - 127.0.0.1 - - [27/Apr/2025 12:34:04] "GET /api/students HTTP/1.1" 200 -
+2025-04-27 13:30:11,632 - INFO - Database initialized successfully
+2025-04-27 13:30:11,636 - INFO - Starting attendance system server
+2025-04-27 13:30:11,710 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-27 13:30:11,712 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-27 13:30:11,717 - INFO -  * Restarting with stat
+2025-04-27 13:30:39,131 - INFO - Database initialized successfully
+2025-04-27 13:30:39,133 - INFO - Starting attendance system server
+2025-04-27 13:30:39,169 - WARNING -  * Debugger is active!
+2025-04-27 13:30:39,182 - INFO -  * Debugger PIN: 928-228-874
+2025-04-27 13:30:40,062 - INFO - Fetching all students
+2025-04-27 13:30:40,072 - INFO - Fetching all students
+2025-04-27 13:30:40,076 - INFO - Successfully retrieved 5 students
+2025-04-27 13:30:40,079 - INFO - 127.0.0.1 - - [27/Apr/2025 13:30:40] "GET /api/students HTTP/1.1" 200 -
+2025-04-27 13:30:40,081 - INFO - Fetching all students
+2025-04-27 13:30:40,083 - INFO - Successfully retrieved 5 students
+2025-04-27 13:30:40,085 - INFO - 127.0.0.1 - - [27/Apr/2025 13:30:40] "OPTIONS /api/recognize HTTP/1.1" 200 -
+2025-04-27 13:30:40,087 - INFO - 127.0.0.1 - - [27/Apr/2025 13:30:40] "GET /api/students HTTP/1.1" 200 -
+2025-04-27 13:30:40,088 - INFO - Successfully retrieved 5 students
+2025-04-27 13:30:40,093 - INFO - 127.0.0.1 - - [27/Apr/2025 13:30:40] "GET /api/students HTTP/1.1" 200 -
+2025-04-27 13:30:40,400 - INFO - Received face recognition request
+2025-04-27 13:30:51,925 - INFO - Face recognized as student: shaz (ID: 3)
+2025-04-27 13:30:51,931 - INFO - 127.0.0.1 - - [27/Apr/2025 13:30:51] "POST /api/recognize HTTP/1.1" 200 -
+2025-04-27 13:30:58,259 - INFO - Fetching all students
+2025-04-27 13:30:58,261 - INFO - Successfully retrieved 5 students
+2025-04-27 13:30:58,262 - INFO - 127.0.0.1 - - [27/Apr/2025 13:30:58] "GET /api/students HTTP/1.1" 200 -
+2025-04-27 13:31:02,411 - INFO - 127.0.0.1 - - [27/Apr/2025 13:31:02] "[33mGET /api/attendance HTTP/1.1[0m" 404 -
+2025-04-27 13:31:06,211 - INFO - 127.0.0.1 - - [27/Apr/2025 13:31:06] "[33mGET /api/attendance HTTP/1.1[0m" 404 -
+2025-04-27 13:31:07,041 - INFO - 127.0.0.1 - - [27/Apr/2025 13:31:07] "[33mGET /api/attendance HTTP/1.1[0m" 404 -
+2025-04-27 13:31:08,333 - INFO - 127.0.0.1 - - [27/Apr/2025 13:31:08] "[33mGET /api/attendance HTTP/1.1[0m" 404 -
+2025-04-27 13:31:10,189 - INFO - 127.0.0.1 - - [27/Apr/2025 13:31:10] "[33mGET /api/attendance HTTP/1.1[0m" 404 -
+2025-04-27 13:31:14,549 - INFO - 127.0.0.1 - - [27/Apr/2025 13:31:14] "[33mGET /api/attendance HTTP/1.1[0m" 404 -
+2025-04-27 13:31:17,056 - INFO - Fetching all students
+2025-04-27 13:31:17,060 - INFO - Successfully retrieved 5 students
+2025-04-27 13:31:17,061 - INFO - 127.0.0.1 - - [27/Apr/2025 13:31:17] "GET /api/students HTTP/1.1" 200 -
+2025-04-27 13:33:40,887 - INFO -  * Detected change in 'C:\\Users\\SHAZ\\CascadeProjects\\attendance-system\\backend\\app.py', reloading
+2025-04-27 13:39:08,585 - INFO - Database initialized successfully
+2025-04-27 13:39:08,587 - INFO - Starting attendance system server
+2025-04-27 13:39:08,643 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-27 13:39:08,644 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-27 13:39:08,650 - INFO -  * Restarting with stat
+2025-04-27 13:39:31,848 - INFO - Database initialized successfully
+2025-04-27 13:39:31,851 - INFO - Starting attendance system server
+2025-04-27 13:39:31,884 - WARNING -  * Debugger is active!
+2025-04-27 13:39:31,896 - INFO -  * Debugger PIN: 928-228-874
+2025-04-27 13:39:32,400 - INFO - 127.0.0.1 - - [27/Apr/2025 13:39:32] "OPTIONS /api/recognize HTTP/1.1" 200 -
+2025-04-27 13:39:32,408 - INFO - Received face recognition request
+2025-04-27 13:39:42,068 - WARNING - Face not recognized in database
+2025-04-27 13:39:42,070 - INFO - 127.0.0.1 - - [27/Apr/2025 13:39:42] "[31m[1mPOST /api/recognize HTTP/1.1[0m" 400 -
+2025-04-27 13:39:48,844 - INFO - 127.0.0.1 - - [27/Apr/2025 13:39:48] "OPTIONS /api/recognize HTTP/1.1" 200 -
+2025-04-27 13:39:49,106 - INFO - Received face recognition request
+2025-04-27 13:39:50,043 - INFO - Face recognized as student: shaz (ID: 3)
+2025-04-27 13:39:50,044 - INFO - 127.0.0.1 - - [27/Apr/2025 13:39:50] "POST /api/recognize HTTP/1.1" 200 -
+2025-04-27 13:40:22,364 - INFO - 127.0.0.1 - - [27/Apr/2025 13:40:22] "[31m[1mGET /api/recognize HTTP/1.1[0m" 405 -
+2025-04-27 13:40:22,609 - INFO - 127.0.0.1 - - [27/Apr/2025 13:40:22] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-27 13:41:23,297 - INFO - Fetching all students
+2025-04-27 13:41:23,299 - INFO - Successfully retrieved 5 students
+2025-04-27 13:41:23,302 - INFO - 127.0.0.1 - - [27/Apr/2025 13:41:23] "GET /api/students HTTP/1.1" 200 -
+2025-04-27 13:41:25,733 - INFO - 127.0.0.1 - - [27/Apr/2025 13:41:25] "[33mGET /api/attendance HTTP/1.1[0m" 404 -
+2025-04-27 13:41:33,583 - INFO - 127.0.0.1 - - [27/Apr/2025 13:41:33] "[33mGET /api/attendance HTTP/1.1[0m" 404 -
+2025-04-27 13:45:28,011 - INFO -  * Detected change in 'C:\\Users\\SHAZ\\CascadeProjects\\attendance-system\\backend\\app.py', reloading
+2025-04-27 13:47:08,836 - INFO - Database initialized successfully
+2025-04-27 13:47:08,840 - INFO - Starting attendance system server
+2025-04-27 13:47:08,908 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-27 13:47:08,908 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-27 13:47:08,914 - INFO -  * Restarting with stat
+2025-04-27 13:47:26,303 - INFO - Database initialized successfully
+2025-04-27 13:47:26,308 - INFO - Starting attendance system server
+2025-04-27 13:47:26,357 - WARNING -  * Debugger is active!
+2025-04-27 13:47:26,377 - INFO -  * Debugger PIN: 928-228-874
+2025-04-27 13:47:40,942 - INFO - Fetching attendance records
+2025-04-27 13:47:40,986 - INFO - Successfully retrieved attendance records for 5 students
+2025-04-27 13:47:40,996 - INFO - 127.0.0.1 - - [27/Apr/2025 13:47:40] "GET /api/attendance HTTP/1.1" 200 -

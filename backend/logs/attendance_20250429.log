@@ -1,0 +1,120 @@
+2025-04-29 10:43:46,342 - INFO - Database initialized successfully
+2025-04-29 10:43:46,342 - INFO - Starting attendance system server
+2025-04-29 10:43:46,836 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-29 10:43:46,841 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-29 10:43:46,848 - INFO -  * Restarting with stat
+2025-04-29 10:44:23,394 - INFO - Database initialized successfully
+2025-04-29 10:44:23,410 - INFO - Starting attendance system server
+2025-04-29 10:44:23,463 - WARNING -  * Debugger is active!
+2025-04-29 10:44:23,482 - INFO -  * Debugger PIN: 928-228-874
+2025-04-29 10:45:21,226 - INFO - 127.0.0.1 - - [29/Apr/2025 10:45:21] "[33mGET / HTTP/1.1[0m" 404 -
+2025-04-29 10:46:03,694 - INFO - 127.0.0.1 - - [29/Apr/2025 10:46:03] "[33mGET / HTTP/1.1[0m" 404 -
+2025-04-29 10:46:03,924 - INFO - 127.0.0.1 - - [29/Apr/2025 10:46:03] "[33mGET / HTTP/1.1[0m" 404 -
+2025-04-29 10:46:04,120 - INFO - 127.0.0.1 - - [29/Apr/2025 10:46:04] "[33mGET / HTTP/1.1[0m" 404 -
+2025-04-29 10:46:04,337 - INFO - 127.0.0.1 - - [29/Apr/2025 10:46:04] "[33mGET / HTTP/1.1[0m" 404 -
+2025-04-29 10:46:04,487 - INFO - 127.0.0.1 - - [29/Apr/2025 10:46:04] "[33mGET / HTTP/1.1[0m" 404 -
+2025-04-29 10:48:14,638 - INFO - Fetching all students
+2025-04-29 10:48:14,979 - INFO - Successfully retrieved 5 students
+2025-04-29 10:48:14,987 - INFO - 127.0.0.1 - - [29/Apr/2025 10:48:14] "GET /api/students HTTP/1.1" 200 -
+2025-04-29 10:48:17,013 - INFO - Fetching all students
+2025-04-29 10:48:17,020 - INFO - Successfully retrieved 5 students
+2025-04-29 10:48:17,024 - INFO - 127.0.0.1 - - [29/Apr/2025 10:48:17] "GET /api/students HTTP/1.1" 200 -
+2025-04-29 10:48:20,495 - INFO - Fetching attendance records
+2025-04-29 10:48:20,540 - INFO - Successfully retrieved attendance records for 5 students
+2025-04-29 10:48:20,540 - INFO - 127.0.0.1 - - [29/Apr/2025 10:48:20] "GET /api/attendance HTTP/1.1" 200 -
+2025-04-29 10:48:24,671 - INFO - Fetching all students
+2025-04-29 10:48:24,678 - INFO - Successfully retrieved 5 students
+2025-04-29 10:48:24,681 - INFO - 127.0.0.1 - - [29/Apr/2025 10:48:24] "GET /api/students HTTP/1.1" 200 -
+2025-04-29 10:49:42,556 - INFO - 127.0.0.1 - - [29/Apr/2025 10:49:42] "OPTIONS /api/recognize HTTP/1.1" 200 -
+2025-04-29 10:49:42,802 - INFO - Received face recognition request
+2025-04-29 10:49:59,653 - INFO - Face recognized as student: shaz (ID: 3)
+2025-04-29 10:49:59,653 - INFO - 127.0.0.1 - - [29/Apr/2025 10:49:59] "POST /api/recognize HTTP/1.1" 200 -
+2025-04-29 10:50:03,958 - INFO - Fetching all students
+2025-04-29 10:50:03,958 - INFO - Successfully retrieved 5 students
+2025-04-29 10:50:03,958 - INFO - 127.0.0.1 - - [29/Apr/2025 10:50:03] "GET /api/students HTTP/1.1" 200 -
+2025-04-29 10:50:05,260 - INFO - Fetching attendance records
+2025-04-29 10:50:05,270 - INFO - Successfully retrieved attendance records for 5 students
+2025-04-29 10:50:05,272 - INFO - 127.0.0.1 - - [29/Apr/2025 10:50:05] "GET /api/attendance HTTP/1.1" 200 -
+2025-04-29 10:50:18,738 - INFO - Fetching all students
+2025-04-29 10:50:18,738 - INFO - Successfully retrieved 5 students
+2025-04-29 10:50:18,738 - INFO - 127.0.0.1 - - [29/Apr/2025 10:50:18] "GET /api/students HTTP/1.1" 200 -
+2025-04-29 10:50:52,048 - INFO - Received request to add new student
+2025-04-29 10:50:52,948 - INFO - Successfully registered student: sahil (ID: 6)
+2025-04-29 10:50:52,948 - INFO - 127.0.0.1 - - [29/Apr/2025 10:50:52] "POST /api/add_student HTTP/1.1" 200 -
+2025-04-29 10:50:58,477 - INFO - Fetching all students
+2025-04-29 10:50:58,482 - INFO - Successfully retrieved 6 students
+2025-04-29 10:50:58,490 - INFO - 127.0.0.1 - - [29/Apr/2025 10:50:58] "GET /api/students HTTP/1.1" 200 -
+2025-04-29 10:51:09,066 - INFO - 127.0.0.1 - - [29/Apr/2025 10:51:09] "OPTIONS /api/recognize HTTP/1.1" 200 -
+2025-04-29 10:51:09,324 - INFO - Received face recognition request
+2025-04-29 10:51:09,632 - ERROR - Error getting face embedding: Face could not be detected in numpy array.Please confirm that the picture is a face photo or consider to set enforce_detection param to False.
+2025-04-29 10:51:09,634 - WARNING - Face not detected in recognition attempt
+2025-04-29 10:51:09,634 - INFO - 127.0.0.1 - - [29/Apr/2025 10:51:09] "[31m[1mPOST /api/recognize HTTP/1.1[0m" 400 -
+2025-04-29 10:51:17,299 - INFO - 127.0.0.1 - - [29/Apr/2025 10:51:17] "OPTIONS /api/recognize HTTP/1.1" 200 -
+2025-04-29 10:51:17,567 - INFO - Received face recognition request
+2025-04-29 10:51:17,995 - ERROR - Error getting face embedding: Face could not be detected in numpy array.Please confirm that the picture is a face photo or consider to set enforce_detection param to False.
+2025-04-29 10:51:17,998 - WARNING - Face not detected in recognition attempt
+2025-04-29 10:51:18,006 - INFO - 127.0.0.1 - - [29/Apr/2025 10:51:18] "[31m[1mPOST /api/recognize HTTP/1.1[0m" 400 -
+2025-04-29 10:51:35,871 - INFO - 127.0.0.1 - - [29/Apr/2025 10:51:35] "OPTIONS /api/recognize HTTP/1.1" 200 -
+2025-04-29 10:51:36,132 - INFO - Received face recognition request
+2025-04-29 10:51:36,365 - ERROR - Error getting face embedding: Face could not be detected in numpy array.Please confirm that the picture is a face photo or consider to set enforce_detection param to False.
+2025-04-29 10:51:36,370 - WARNING - Face not detected in recognition attempt
+2025-04-29 10:51:36,370 - INFO - 127.0.0.1 - - [29/Apr/2025 10:51:36] "[31m[1mPOST /api/recognize HTTP/1.1[0m" 400 -
+2025-04-29 10:51:52,642 - INFO - Fetching all students
+2025-04-29 10:51:52,642 - INFO - Successfully retrieved 6 students
+2025-04-29 10:51:52,642 - INFO - 127.0.0.1 - - [29/Apr/2025 10:51:52] "GET /api/students HTTP/1.1" 200 -
+2025-04-29 11:06:09,324 - INFO - Fetching all students
+2025-04-29 11:06:09,327 - INFO - Successfully retrieved 6 students
+2025-04-29 11:06:09,327 - INFO - 127.0.0.1 - - [29/Apr/2025 11:06:09] "GET /api/students HTTP/1.1" 200 -
+2025-04-29 11:18:45,627 - INFO - Received request to add new student
+2025-04-29 11:18:46,652 - INFO - Successfully registered student: arun (ID: 7)
+2025-04-29 11:18:46,660 - INFO - 127.0.0.1 - - [29/Apr/2025 11:18:46] "POST /api/add_student HTTP/1.1" 200 -
+2025-04-29 11:18:53,925 - INFO - Fetching all students
+2025-04-29 11:18:53,931 - INFO - Successfully retrieved 7 students
+2025-04-29 11:18:53,936 - INFO - 127.0.0.1 - - [29/Apr/2025 11:18:53] "GET /api/students HTTP/1.1" 200 -
+2025-04-29 11:18:59,078 - INFO - Fetching all students
+2025-04-29 11:18:59,087 - INFO - Successfully retrieved 7 students
+2025-04-29 11:18:59,087 - INFO - 127.0.0.1 - - [29/Apr/2025 11:18:59] "GET /api/students HTTP/1.1" 200 -
+2025-04-29 11:19:16,164 - INFO - 127.0.0.1 - - [29/Apr/2025 11:19:16] "OPTIONS /api/recognize HTTP/1.1" 200 -
+2025-04-29 11:19:16,431 - INFO - Received face recognition request
+2025-04-29 11:19:17,629 - INFO - Face recognized as student: shaz (ID: 3)
+2025-04-29 11:19:17,630 - INFO - 127.0.0.1 - - [29/Apr/2025 11:19:17] "POST /api/recognize HTTP/1.1" 200 -
+2025-04-29 11:19:23,494 - INFO - Fetching all students
+2025-04-29 11:19:23,494 - INFO - Successfully retrieved 7 students
+2025-04-29 11:19:23,494 - INFO - 127.0.0.1 - - [29/Apr/2025 11:19:23] "GET /api/students HTTP/1.1" 200 -
+2025-04-29 11:19:25,092 - INFO - Fetching attendance records
+2025-04-29 11:19:25,101 - INFO - Successfully retrieved attendance records for 7 students
+2025-04-29 11:19:25,101 - INFO - 127.0.0.1 - - [29/Apr/2025 11:19:25] "GET /api/attendance HTTP/1.1" 200 -
+2025-04-29 11:19:34,744 - INFO - Fetching attendance records
+2025-04-29 11:19:34,744 - INFO - Successfully retrieved attendance records for 7 students
+2025-04-29 11:19:34,744 - INFO - 127.0.0.1 - - [29/Apr/2025 11:19:34] "GET /api/attendance HTTP/1.1" 200 -
+2025-04-29 11:19:35,800 - INFO - Fetching attendance records
+2025-04-29 11:19:35,808 - INFO - Successfully retrieved attendance records for 7 students
+2025-04-29 11:19:35,812 - INFO - 127.0.0.1 - - [29/Apr/2025 11:19:35] "GET /api/attendance HTTP/1.1" 200 -
+2025-04-29 11:19:36,851 - INFO - Fetching attendance records
+2025-04-29 11:19:36,860 - INFO - Successfully retrieved attendance records for 7 students
+2025-04-29 11:19:36,860 - INFO - 127.0.0.1 - - [29/Apr/2025 11:19:36] "GET /api/attendance HTTP/1.1" 200 -
+2025-04-29 11:19:37,095 - INFO - Fetching attendance records
+2025-04-29 11:19:37,099 - INFO - Successfully retrieved attendance records for 7 students
+2025-04-29 11:19:37,103 - INFO - 127.0.0.1 - - [29/Apr/2025 11:19:37] "GET /api/attendance HTTP/1.1" 200 -
+2025-04-29 11:19:37,185 - INFO - Fetching attendance records
+2025-04-29 11:19:37,193 - INFO - Successfully retrieved attendance records for 7 students
+2025-04-29 11:19:37,193 - INFO - 127.0.0.1 - - [29/Apr/2025 11:19:37] "GET /api/attendance HTTP/1.1" 200 -
+2025-04-29 11:19:37,427 - INFO - Fetching attendance records
+2025-04-29 11:19:37,432 - INFO - Successfully retrieved attendance records for 7 students
+2025-04-29 11:19:37,437 - INFO - 127.0.0.1 - - [29/Apr/2025 11:19:37] "GET /api/attendance HTTP/1.1" 200 -
+2025-04-29 11:19:37,984 - INFO - Fetching attendance records
+2025-04-29 11:19:37,999 - INFO - Successfully retrieved attendance records for 7 students
+2025-04-29 11:19:37,999 - INFO - 127.0.0.1 - - [29/Apr/2025 11:19:37] "GET /api/attendance HTTP/1.1" 200 -
+2025-04-29 11:19:39,218 - INFO - Fetching attendance records
+2025-04-29 11:19:39,224 - INFO - Successfully retrieved attendance records for 7 students
+2025-04-29 11:19:39,227 - INFO - 127.0.0.1 - - [29/Apr/2025 11:19:39] "GET /api/attendance HTTP/1.1" 200 -
+2025-04-29 11:19:40,211 - INFO - Fetching attendance records
+2025-04-29 11:19:40,227 - INFO - Successfully retrieved attendance records for 7 students
+2025-04-29 11:19:40,236 - INFO - 127.0.0.1 - - [29/Apr/2025 11:19:40] "GET /api/attendance HTTP/1.1" 200 -
+2025-04-29 11:20:06,034 - INFO - Fetching attendance records
+2025-04-29 11:20:06,037 - INFO - Successfully retrieved attendance records for 7 students
+2025-04-29 11:20:06,044 - INFO - 127.0.0.1 - - [29/Apr/2025 11:20:06] "GET /api/attendance HTTP/1.1" 200 -
+2025-04-29 11:20:07,853 - INFO - Fetching all students
+2025-04-29 11:20:07,858 - INFO - Successfully retrieved 7 students
+2025-04-29 11:20:07,861 - INFO - 127.0.0.1 - - [29/Apr/2025 11:20:07] "GET /api/students HTTP/1.1" 200 -
